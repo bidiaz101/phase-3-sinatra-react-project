@@ -1,3 +1,3 @@
 class Comment < ActiveRecord::Base
-    belongs_to :wisdom
+    belongs_to :word
 end
