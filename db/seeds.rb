@@ -2,18 +2,18 @@ puts "🌱 Seeding spices..."
 
 # Seed your database here
 
-10.times do
+20.times do
     Word.create(
         word: Faker::Quote.famous_last_words,
         user: Faker::Name.name
     )
 end
 
-50.times do
+100.times do
     Comment.create(
         comment: Faker::Lorem.sentence,
         user: Faker::Name.name,
-        word_id: rand(1..10)
+        word_id: rand(1..20)
     )
 end
 

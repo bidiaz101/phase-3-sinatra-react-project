@@ -2,7 +2,7 @@ class Word < ActiveRecord::Base
     has_many :comments
 
     def self.random 
-        id = rand(1..Word.all.length)
+        id = Word.ids.shuffle[0]
         Word.find(id)
     end
 end
