@@ -28,3 +28,5 @@ There is a space to display comments under each piece of advice. Users can comme
 The associated comments will appear underneath each piece of advice. Users can also delete comments associated with the advice that is generated. 
 
 This project was made to practice creating and using a relational database and API using Ruby, Active Record, and Sinatra. The front end was made with React.
+
+The frontend can be found here: https://github.com/bidiaz101/words-of-wisdom-frontend
